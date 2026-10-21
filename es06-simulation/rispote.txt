@@ -1,0 +1,15 @@
+Risposta 1:
+- Working Tree: l'area di lavoro sul disco locale in cui si modificano e creano i file del progetto.
+- Staging Area : l'area di transito intermedia in cui vengono registrate le modifiche selezionate (staged) pronte per essere salvate.
+- Repository : è il database locale che memorizza in modo permanente la cronologia dei commit e lo storico del progetto.
+
+Risposta 2:
+	Differenza tra git fetch e git merge: git fetch scarica i metadati e le novità dal repository remoto senza applicarli o modificarli nel workspace locale,mentre git 	merge unisce i commit di un branch differente (locale o remoto) all'interno del branch attualmente attivo.
+
+Risposta 3:
+Issue: Apertura di una segnalazione o richiesta per definire un bug o una nuova funzionalità 
+--> Branch: Creazione di un ramo isolato dal main per sviluppare la soluzione senza intaccare il codice stabile --> Commit: Salvataggi progressivi delle modifiche locali sul proprio branch 
+--> Push: Invio dei commit dal computer locale al repository remoto su GitHub 
+--> Pull Request (PR): Apertura di una richiesta formale per proporre l'unione del proprio branch nel ramo principale.
+--> Review: Revisione del codice da parte dei colleghi, che possono lasciare commenti o richiedere modifiche
+--> Merge: Approvazione e unione definitiva del codice validato all'interno del branch principale.
